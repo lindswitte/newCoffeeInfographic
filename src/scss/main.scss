@@ -1,0 +1,74 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+/* 2. Content ================================= */
+p{
+	display:none;
+}
+
+@media screen and (max-width: 640px) {
+	// img.cups{
+	// 	background-image: url("dist/img/10823_1.jpg");
+	// 	width: 100vw;
+	// 	top: 50%;
+	// 	left:50%;
+	// 	transform: translate(-50%, -50%)
+	// }
+
+	img.cup1{
+		position:absolute;
+		top: 36.8vh;
+		left: 6.5vh;
+	}
+
+	img.cup2{
+		position:absolute;
+		top: 43vh;
+		left: 24.5vh;
+	}
+
+	img.cup3{
+		position:absolute;
+		top: 32vh;
+		left: 32vh;
+	}
+
+	img.cup4{
+		position:absolute;
+		top: 56vh;
+		left: 32vh;
+	}
+
+	img.cup5{
+		position:absolute;
+		top: 62.5vh;
+		left: 19.5vh;
+	}
+
+}
